@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-24T19:23:34Z" name="Default suite" finished-at="2022-12-24T19:24:14Z" duration-ms="39971">
+    <groups>
+    </groups>
+    <test started-at="2022-12-24T19:23:34Z" name="Default test" finished-at="2022-12-24T19:24:14Z" duration-ms="39971">
+      <class name="com.testcases.AddVaccancyTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.testcases.AddVaccancyTest@4722ef0c]" started-at="2022-12-25T00:53:34Z" name="openBrowser" finished-at="2022-12-25T00:53:49Z" duration-ms="14663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="ValidateLogin()[pri:0, instance:com.testcases.AddVaccancyTest@4722ef0c]" started-at="2022-12-25T00:53:49Z" name="ValidateLogin" finished-at="2022-12-25T00:54:14Z" duration-ms="24970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testcases.AddVaccancyTest@4722ef0c]" started-at="2022-12-25T00:54:14Z" name="closeBrowser" finished-at="2022-12-25T00:54:14Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testcases.AddVaccancyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
