@@ -12,7 +12,7 @@ import org.openqa.selenium.By;
 import com.base.Base;
 
 public class AddEmp extends Base{
-        public void addEmp() throws AWTException, InterruptedException {
+    public void addEmp() throws AWTException, InterruptedException {
 		
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[2]/a/span")).click();
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")).click();

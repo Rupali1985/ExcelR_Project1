@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import com.base.Base;
 
 public class AddRecruitment extends Base{
-public void addRecruitment() throws AWTException, InterruptedException {
+    public void addRecruitment() throws AWTException, InterruptedException {
 		
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[5]/a/span")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")).click();
