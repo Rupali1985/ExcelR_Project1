@@ -48,7 +48,7 @@ public class MyInfo extends Base{
      
      public void contactDetails() throws InterruptedException
      {
-     
+    	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[3]/a")).click();
         driver.findElement(By.xpath("//a[normalize-space()='Contact Details']")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[1]/div/div[2]/input")).sendKeys(prop3.getProperty("street1"));
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[2]/div/div[2]/input")).sendKeys(prop3.getProperty("street2"));
@@ -77,6 +77,7 @@ public class MyInfo extends Base{
      }
 		public void emergencyContact() throws InterruptedException
 		{
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[3]/a")).click();
 		driver.findElement(By.xpath("//a[normalize-space()='Emergency Contacts']")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/div/button/i")).click();
         driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[1]/div/div[2]/input")).sendKeys(prop3.getProperty("name"));

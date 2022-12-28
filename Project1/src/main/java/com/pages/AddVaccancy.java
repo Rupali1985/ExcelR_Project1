@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import com.base.Base;
 
 public class AddVaccancy extends Base{
-public void addVaccancy() throws AWTException, InterruptedException {
+    public void addVaccancy() throws AWTException, InterruptedException {
 	
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[5]/a/span")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a")).click();
