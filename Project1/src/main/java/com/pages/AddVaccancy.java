@@ -16,7 +16,15 @@ public class AddVaccancy extends Base{
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[1]/div/div[2]/input")).sendKeys(prop6.getProperty("vname"));
 		
-		//driver.findElement(By.xpath("//*[@id=\\\"app\\\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div/div[2]/div/div/div[1]")).click();
+		List <WebElement> items=driver.findElements(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div/div[2]/div/div/div[1]"));
+		for(int i=0;i<items.size();i++)
+		{
+			if(items.get(i).getText().equals("Software Engineer"))
+            {
+            	items.get(i).click();
+            }
+
+		}
 		
 		
 		Thread.sleep(3000);
